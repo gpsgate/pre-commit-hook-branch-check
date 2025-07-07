@@ -1,0 +1,8 @@
+- id: branch-check
+  name: Check branch name against list of allow/deny patterns
+  description: |
+    TODO
+  entry: branch_check
+  language: python
+  pass_filenames: false
+  always_run: true
