@@ -1,7 +1,7 @@
 # `pre-commit` hook to check branch names
 
 This project implements a [pre-commit] [hook] to enforce branch names.
-The defaults aim at respecting [conventional commits][cc],
+The defaults aim at respecting [conventional branches][cb],
 but options are flexible enough to respect other conventions or set of rules.
 
 The official [hooks][official] already contain a `no-commit-to-branch` hook,
@@ -11,14 +11,14 @@ and which branch names should be denied.
 
   [pre-commit]: https://pre-commit.com/
   [hook]: ./.pre-commit-hooks.yaml
-  [cc]: https://conventional-branch.github.io/
+  [cb]: https://conventional-branch.github.io/
   [official]: https://github.com/pre-commit/pre-commit-hooks
   [use]: https://github.com/pre-commit/pre-commit/issues/1034
 
 ## Usage
 
 Add the following to your `.pre-commit-config.yaml` file.
-The default is to respect [conventional commits][cc].
+The default is to respect [conventional branches][cb].
 You might want to check the latest [release] of the repository and change the `rev` key.
 
 ```yaml

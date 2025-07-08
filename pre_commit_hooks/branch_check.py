@@ -5,7 +5,7 @@ import sys
 import subprocess
 import re
 
-# Default patterns are for conventional commits. See:
+# Default patterns are for conventional branches. See:
 # https://conventional-branch.github.io/
 DEFAULT_ALLOWED_PATTERNS = [
     '^(feature|bugfix|hotfix|release|chore)/[a-z0-9/.-]*[a-z0-9]$',
